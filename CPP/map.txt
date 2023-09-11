@@ -1,0 +1,77 @@
+	MAPS are the STL's Standard Template Library's -> Associative Containers that Store Key - Value Pairs.	
+
+
+	Declaration and Initialization: #include <map>
+
+					std::map<KeyType, ValueType> myMap;
+
+
+	Inserting Elements: myMap[key] = value;
+
+
+
+	Accessing Elements: ValueType value = myMap[key];  // Retrieve the value associated with a key
+
+
+	Checking if a Key Exists: 
+
+					if (myMap.find(key) != myMap.end()) {
+    										// Key exists
+												} 
+					else {
+    						// Key doesn't exist
+										}
+
+
+	Iterating Over Elements: 
+
+
+				for (auto& pair : myMap) {
+							    KeyType key = pair.first;
+							    ValueType value = pair.second;
+							    // Do something with key and value
+							  }
+
+	Removing Elements: 
+				myMap.erase(key);  // Remove an element by key
+
+
+
+
+	Size of the Map:    
+				size_t size = myMap.size();  // Get the number of elements in the map
+
+
+
+				TYPES OF MAPS
+
+
+
+		1. ORDERED_MAP(unique and sorted in ascending order) -> map<int, std::string>       
+
+		2. UNORDERED_MAP(Keys are unique, but they are not sorted) -> unordered_map<std::string, int>     
+
+		3. MULTI_MAP(multiple elements with same key value) -> multimap<int, std::string>(SORTED) && unordered_multimap<std::string, int>(UNSORTED) 
+
+
+
+
+		
+	
+
+NOTES : 
+
+1. size_t is an unsigned integer type in C and C++ that is used to represent the size of objects.
+
+2. pairs are used to temporarily group two values together, while maps are used to store collections of key-value pairs where each key uniquely identifies a value. 
+   Pairs don't provide lookup based on keys, while maps do.
+
+   CODE : 
+
+	#include <utility> // Include the utility header for std::pair
+
+	pair<int, int> myPair(10, 20);
+	
+	    // Accessing the elements of the pair
+    	       int firstValue = myPair.first;
+    	       int secondValue = myPair.second;
