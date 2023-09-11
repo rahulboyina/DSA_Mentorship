@@ -1,0 +1,54 @@
+First of all before you add any file you need to be present in the concerened repository location for which follow below command 
+
+		CD Reposiory Path
+
+	Switch to the branch you want to add the file/ changes to with command below  
+
+		git Checkout branch_name
+
+
+	If you want to create a sub-folder follow below command (OPTIONAL)
+
+		mkdir Folder_NAME
+
+	Switch to that repository using below command 
+
+		cd Folder_NAME
+
+	Add a file into the respository using below Command
+
+		touch file_name.format
+
+	To open the file use the below command
+
+		nano file_name.format (use name followed by Tab to get the suggestions of the file name)
+
+	Now i'm using the same steps above to write this very text funny isn't it ? -> Yes right GOT YOU :) --- >
+
+	
+	Once done writing save changes using below set of commands 
+
+		---> Ctrl + X -> Y -> Enter 
+
+	In your GIT bash you could find a waring message as given below ( This occur's if we operate from different enivronments we can IGONRE it or Config it )
+	
+		warning: in the working copy of 'GIT_COMMANDS/basic_commands.txt', LF will be replaced by CRLF the next time Git touches it
+	 
+	
+	( End Of Optional )
+
+	Now we had file with necessary changes to Stage those changes to COMMIT we use the below command ( when we make changes to the file those changes are unrecoginzed
+	by GIT to put into the next commit to push into the repo so we need to add them )
+
+		git add file_name.txt
+
+		git add . ( Stage all changes in the current directory and subdirectories )
+	
+	NOW THE CHANGES ARE STAGGED TO COMMIT THOSE CHANGES ( Creating a permanent snapshot of the files we have modified along with the "message" as a Local CopY) with 
+	Below Command.
+
+		git commit -m "Message goes in HERE "
+
+	NOW THE FILE IS PRESENT IN OUR LOCAL PC WE NEED TO PUSH IT TO THE CLOUD REPOSITORY (GIT) TO THE CURRENT BRANCH WE ARE IN
+
+		git push origin BRANCH_NAME
