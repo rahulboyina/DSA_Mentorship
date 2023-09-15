@@ -39,6 +39,7 @@ Here are some basic Git commands to help you get started:
 7. **Create a Branch:**
    ```bash
    git branch <branch_name>
+	create and checkout branch git checkout -b branch name;
    ```
    This command creates a new branch with the specified name.
 
