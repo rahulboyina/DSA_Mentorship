@@ -42,8 +42,39 @@ int arr_freqency[arr.size()]={0};
 for(int &x:arr) arr_freqency[x]++;
 ```
 
+*Complexity is O(N) for this frequency array updation and O(1) for reterival of the Information from it post updation*
+
 ***vah yarr kaisa banaya aisa logic KK par agar mera set of values more than 10<sup>5</sup> toh mera duplicate array ka size nahi fit or feasable raha gah itna space waste karna keliaya KOI OPTIMAL SOLUTION BATASAK TEH HOH KYA***
 
+*Let's Understand what alternative do we have to overcome this complexity is there a Algorithm(Procedure/Series of Methods) or a Separate Data Structure itself to handle this Optimization Paradigm*
+
+**Here we have a concept called the Mapping**
+
+*Ok but what is Mapping -> Let's Dig down from it's name itself*
+
+*Map is associating a object or an entity let's for for betterment of the argument 'X' being assocaited with any other object or an enity let's say 'Y'*
+
+**Sounds Intersting but unable to get real world implementaion**
+
+|X|Y|
+|-|-|
+|India|Country|
+|TATA|Company|
+|Longitude & Latitude|Location|
+|Best Language|CPP|
+|Best University|Nalanda|
+
+*So if you see few examples given above in the column X let's say if i say what is INDIA you will say country which is a fact and universally accepted but if i say what is best Language you could say 'Assembly' it could vary right but we are associating some value to it in each individual presepective*
+
+*In terms of programming if say value of PI = 3.14 which is like a fact which will be same across all languages but if i say height = value x which is confinened to my programmins space. So, we are going to leverage this methodlogy where we could update the values of their assocated entity's as per our requirement this i could say basic concept in Mapping*
+
+*So well and good but are there types in it like in numbers we have Integers and Float as Such*
+
+*Answer is Yes we do have types in Maps*
+
+|Type|Declaration|Initailization|
+|----|-----------|--------------|
+|UnOrdered|unordered_map<type_of_KEY,type_of_Value> variable|variable[key]=value or variable[key]++|
 
 
 
