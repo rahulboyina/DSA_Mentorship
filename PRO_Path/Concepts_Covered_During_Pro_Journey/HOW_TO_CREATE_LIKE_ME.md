@@ -52,9 +52,9 @@ CONTENT / CODE
 2. l2
 3. l3
 
-<!-- Check box are like square braces and x in between them [x] , [] -->
+<!-- Check box are like square braces and x in between them - [x] , [] -->
 
-I'm the best in what i do [x]
+-   [x] I'm the best in what i do
 
 
 */
