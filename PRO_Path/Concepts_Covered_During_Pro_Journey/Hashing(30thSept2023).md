@@ -22,7 +22,7 @@ for(int i=0;i<arr.size();++i)
 ![image](https://miro.medium.com/v2/resize:fit:678/0*ouBkTMgA_yg_Etfz.png)
 |**O(N) -> Time complexity mate. hamara company seh customer chala jayanga itna slow heh toh**|
 
-__Think Think Think here comes KK -> jab O(1) time complexity jahiya when reteriving the information vaisa deina vali data strcuture konsa heh
+**Think Think Think here comes KK -> jab O(1) time complexity jahiya when reteriving the information vaisa deina vali data strcuture konsa heh
 
 Array meh O(1) hoga nah jab bhi koi value koh retrive korogah toh through specifying index
 
@@ -42,8 +42,7 @@ Abn traverse karo aisa ki jo bhi value ayaga uski index dusra array meh kaha heh
 for(int &x:arr) arr_freqency[x]++;
 ```
 
-__
-
+**
 
 
 
