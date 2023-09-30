@@ -17,7 +17,10 @@ for(int i=0;i<arr.size();++i)
         if(arr[i]==value) ctr++;
     }
 ```
-
+|Here We GO|
+|--------------------------------------------------------------------------------------------|
+![image](https://miro.medium.com/v2/resize:fit:678/0*ouBkTMgA_yg_Etfz.png)
+**O(N) -> Time complexity mate. hamara company seh customer chala jayanga itna slow heh toh**
 
 
 
