@@ -75,6 +75,23 @@ for(int &x:arr) arr_freqency[x]++;
 |Type|Declaration|Initailization|
 |----|-----------|--------------|
 |UnOrdered|unordered_map<type_of_KEY,type_of_Value> variable|variable[key]=value or variable[key]++|
+|Ordered|map<type_of_KEY,type_of_Value> variable|variable[key]=value or variable[key]++|
+
+
+### Key difference between Unordered and Ordered Map is that order in which they are stored in "UnOrdered" they are "not sorted" the key's can be stored in any order and when it comes to the "Ordered" they are "Sorted" key's should follow the ascending order.
+
+#### Any Operation's Worst Case Complexity in Unordered Map -> O(N) & in Ordered Map -> O(Log(n))
+## KEY POINTS
+
+**The Map stores the unique elements and their associated values**
+
+**The Map cannot be greater in size than the unique elements it would be hosting**
+
+**We store the elements as entry not by the index**
+
+**The worst case complexity of inserting an element could be O(N) *Considering Key Collision***
+
+
 
 
 
