@@ -42,7 +42,7 @@ int arr_freqency[arr.size()]={0};
 for(int &x:arr) arr_freqency[x]++;
 ```
 
-<mark> vah yarr kaisa banaya aisa logic KK par agar mera set of values more than 10<sup>5</sup> toh mera duplicate array ka size nahi fit or feasable raha gah itna space waste karna keliaya KOI OPTIMAL SOLUTION BATASAK TEH HOH KYA</mark>
+<span style="color:red">vah yarr kaisa banaya aisa logic KK par agar mera set of values more than 10<sup>5</sup> toh mera duplicate array ka size nahi fit or feasable raha gah itna space waste karna keliaya KOI OPTIMAL SOLUTION BATASAK TEH HOH KYA</span>
 
 
 
