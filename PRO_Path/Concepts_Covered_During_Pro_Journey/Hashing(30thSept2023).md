@@ -1,4 +1,4 @@
-# Hashing
+# Hashing -> Through Simple Conversation by <mark>RahulBoyina</mark>
 
 **Q1. Let's ask ourself what on the programming play ground is this weirdly sounding term Hashing and why do i even need that mate can't i use my existing knowledge to get my thing's done ?**
 
@@ -26,7 +26,7 @@ for(int i=0;i<arr.size();++i)
 
 **Array meh O(1) hoga nah jab bhi koi value koh retrive korogah toh through specifying index**
 
-**TOh index ek ek index meh ek ek value ka frenquency rahi heh ghi toh reterival easy hoga nah **
+**TOh index ek ek index meh ek ek value ka frenquency rahi heh ghi toh reterival easy hoga nah**
 
 **Par us kaliya hamha O(N) space dehana padega kyu ki joh array meh eh sab values heh usko tum replace nahi kar saktha hoh**
 
@@ -41,6 +41,8 @@ int arr_freqency[arr.size()]={0};
 ```cpp
 for(int &x:arr) arr_freqency[x]++;
 ```
+
+<mark> vah yarr kaisa banaya aisa logic KK par agar mera set of values more than 10<sup>5</sup> toh mera duplicate array ka size nahi fit or feasable raha gah itna space waste karna keliaya KOI OPTIMAL SOLUTION BATASAK TEH HOH KYA</mark>
 
 
 
