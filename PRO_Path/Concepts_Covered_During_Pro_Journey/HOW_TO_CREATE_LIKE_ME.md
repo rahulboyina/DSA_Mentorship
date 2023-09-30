@@ -38,6 +38,7 @@ CONTENT / CODE
 <!-- Table representation we use | Heading / content | which act's as an building blocks -->
 
 |A|B|
+|-|-|
 |1|2|
 
 <!-- List are represented using the * symbol for unordered list , numbers for ordered list and can manually indent here as pre format which will reflect on real web -->
