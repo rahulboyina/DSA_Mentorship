@@ -20,7 +20,29 @@ for(int i=0;i<arr.size();++i)
 |Here We GO|
 |--------------------------------------------------------------------------------------------|
 ![image](https://miro.medium.com/v2/resize:fit:678/0*ouBkTMgA_yg_Etfz.png)
-**O(N) -> Time complexity mate. hamara company seh customer chala jayanga itna slow heh toh**
+|**O(N) -> Time complexity mate. hamara company seh customer chala jayanga itna slow heh toh**|
+
+##Think Think Think here comes KK -> jab O(1) time complexity jahiya when reteriving the information vaisa deina vali data strcuture konsa heh
+
+##Array meh O(1) hoga nah jab bhi koi value koh retrive korogah toh through specifying index
+
+##TOh index ek ek index meh ek ek value ka frenquency rahi heh ghi toh reterival easy hoga nah 
+
+##Par us kaliya hamha O(N) space dehana padega kyu ki joh array meh eh sab values heh usko tum replace nahi kar saktha hoh
+
+```cpp
+int arr_freqency[arr.size()]={0};
+```
+
+##Uppar meh default values for all index's zero isilya deya ki hama ab tak actual array nahi dekaha heh isheh update karna kaliaya aur update opeartion meh bas increment or decrement seh kam hooo jayaga assignement ki jarurat nahi padega.
+
+##Abn traverse karo aisa ki jo bhi value ayaga uski index dusra array meh kaha heh vaha jaka uska value ko increment karo
+
+```cpp
+for(int &x:arr) arr_freqency[x]++;
+```
+
+
 
 
 
