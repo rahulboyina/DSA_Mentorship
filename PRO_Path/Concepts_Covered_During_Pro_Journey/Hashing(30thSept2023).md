@@ -8,7 +8,7 @@
 int arr=[1,2,9,8,7,6,4,3,2,1,3,5,6,7,8];
 ```
 
-*Brute force method would be traverse array O(n) times and search for a specific element and take a variable and increment it in the old fashion but the total cost of the operation is O(N) O(1) nahi heh*
+*Brute force method would be traverse whole array and search for a specific element and take a variable and increment it in the old fashion but the total cost of the operation is O(N) O(1) nahi heh*
 
 ```cpp
     int ctr=0;
@@ -17,6 +17,8 @@ for(int i=0;i<arr.size();++i)
         if(arr[i]==value) ctr++;
     }
 ```
+
+
 
 
 
